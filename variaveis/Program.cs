@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Reflection.Metadata;
-using System.Runtime.InteropServices;
 
 Console.WriteLine("Hello, World!");
 // Tipos de dados primitivos
@@ -50,7 +48,7 @@ public interface IVeiculo
   void Mover();
 }
 // Delegates
-public void delegates Processar (int nuemro);
+public void delegate Processar(int numero);
 
 // Nullable types
 int? idade = null;
