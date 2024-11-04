@@ -33,5 +33,5 @@ Console.WriteLine(a4 ^ b4);
 bool a5 = true;
 bool b5 = false;
 bool c5 = false;
-bool resultado = !a5 || (b5 && c5)
+bool resultado = !a5 || (b5 && c5);
 Console.WriteLine(resultado);
