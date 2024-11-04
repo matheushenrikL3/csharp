@@ -10,3 +10,10 @@ Console.WriteLine(saudacao);
 string nome = "erick";
 string saudacao = $"Ola, {nome}! Bem-vindo.";
 Console.WriteLine(saudacao);
+
+// Operador GetType()
+int numero = 5;
+Console.WriteLine(numero.GetType());
+
+// Palavra-chave typeof
+Console.WriteLine(typeof(int));
