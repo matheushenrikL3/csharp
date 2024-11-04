@@ -22,7 +22,7 @@ string saudacao = "Ola mundo!";
 
 // Arrays
 int[] numeros = {1, 2, 3, 4, 5};
-string[] nomes = {"Celine line", "Erick Ranter", "Vitor Schiavon"};
+string[] nomes = {"Samuel Noticias", "Erick Ranter", "Vitor Schiavon"};
 
 // Classes
 public class Pessoa
