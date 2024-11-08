@@ -80,7 +80,7 @@ Console.WriteLine("Digite uma vogal:");
 string? letra = Console.ReadLine();
 string letraMinuscula = letra.ToLower();
 string letraMinuscula = letra.ToUpper();
-switch (letraMinuscula)
+switch (letraMinuscula);
 {
     case "a":
     case "e":
@@ -93,3 +93,7 @@ switch (letraMinuscula)
         Console.WriteLine($"A letra a 'a{letraMinuscula}' é uma vogal.");
         break;
 }
+// Operador Ternário
+int idade = 18
+string mensagem = idade >= 18 ? "Maior de idade" : "Menor de idade";
+Console.WriteLine(mensagem);
