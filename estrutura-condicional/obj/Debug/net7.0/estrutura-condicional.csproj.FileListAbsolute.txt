@@ -1,0 +1,14 @@
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\bin\Debug\net7.0\estrutura-condicional.exe
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\bin\Debug\net7.0\estrutura-condicional.deps.json
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\bin\Debug\net7.0\estrutura-condicional.runtimeconfig.json
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\bin\Debug\net7.0\estrutura-condicional.dll
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\bin\Debug\net7.0\estrutura-condicional.pdb
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.AssemblyInfoInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.AssemblyInfo.cs
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.dll
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\refint\estrutura-condicional.dll
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.pdb
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\estrutura-condicional.genruntimeconfig.cache
+C:\Users\SENAC\Documents\GitHub\csharp\estrutura-condicional\obj\Debug\net7.0\ref\estrutura-condicional.dll
