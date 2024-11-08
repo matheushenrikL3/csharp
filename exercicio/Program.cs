@@ -28,9 +28,33 @@ else
     Console.WriteLine("Entreda liberada");
 }
 */
-bool ehMaiorIdade = false;
+/*bool ehMaiorIdade = false;
 bool possuiAutorizacaoResponsavel = false;
 
 string resultado = ehMaiorIdade || possuiAutorizacaoResponsavel ? "Entrada liebrada" : "Entrada nao liberada";
 
 Console.WriteLine(resultado);
+
+bool possuiPresençaMinima = true;
+double media = 7.0;
+
+if (possuiPresençaMinima && media >= 7)
+{
+    Console.WriteLine($"Média {media:F1}: Aprovado");
+}
+else
+{
+Console.WriteLine($"Média {media:F1}: Reprovado");
+}
+*/
+bool choveu = true;
+bool estaTarde = false;
+
+if(!choveu && !estaTarde)
+{
+    Console.WriteLine("vou pedalar");
+}
+else
+{
+    Console.WriteLine("vou pedalar outro dia");
+}
