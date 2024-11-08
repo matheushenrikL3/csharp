@@ -15,7 +15,7 @@ string entrada2 = $"Qual é a sua idade? {idade2}. Entrada nao permitida";
 Console.WriteLine(entrada2);
 */
 // Exercícios
-
+/*
 bool ehMaiorIdade = false;
 bool possuiAutorizacaoResponsavel = true;
 
@@ -27,9 +27,9 @@ else
 {
     Console.WriteLine("Entreda liberada");
 }
-
+*/
 bool ehMaiorIdade = false;
-bool possuiAutorizacaoResponsavel = true;
+bool possuiAutorizacaoResponsavel = false;
 
 string resultado = ehMaiorIdade || possuiAutorizacaoResponsavel ? "Entrada liebrada" : "Entrada nao liberada";
 
