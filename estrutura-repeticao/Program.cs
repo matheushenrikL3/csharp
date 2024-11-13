@@ -93,3 +93,25 @@
 // }
 
 //5
+Random random = new Random();
+int numeroAleatorio - random.Next(1, 101);
+int palpite;
+int contador =0;
+bool acertou - false;
+Console.WriteLine("Tentativa de acertar o numero entre 1 e 100:");
+while (!acertou)
+{
+    Console.WriteLine("Digite seu palpite: ");
+    contador++;
+}
+else if (palpite > numeroAleatorio)
+{
+    Console.WriteLine("O numero e menor!");
+    contador++;
+}
+else 
+{
+    contador++;
+    Console.WriteLine($"Parabens! voce adivinhou o numero sorteado '{numeroAleatorio}' depois de {contador} tentativas.");
+    acertou = true;
+}
