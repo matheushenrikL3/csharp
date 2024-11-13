@@ -47,14 +47,49 @@
 // advinhar. apos cada tentativa, o prorama indica se o numero e maior ou menor.
 
 //1
+// int soma = 0;
 
-for (int i = 1; i <= 100; i++)
-    {
-    Console.WriteLine(i);
-    }
+// for (int i = 1; i <= 100; i++)
+// {   
+//     if (i % 2 == 0)
+//     {
+//         soma += i;
+//     }
+// }
+// Console.WriteLine($"O item de todos os numeros pares de 1 a 100 e: {soma}");
 
 //2
 // for (int i = 10; i > 0; i--)
 // {
 //      Console.WriteLine($"Valor de i: {i}");
 // }
+
+//3
+// Console.WriteLine("Digite uma palavra:");
+// string palavra = Console.ReadLine().Tolower();
+// int contagemVogais = 0;
+
+// foreach (char letra in palavra)
+// {
+//     if ("eaiou".Contains(letra)) 
+//     {
+//         contagemVogais++;
+//     }
+// }
+
+// Console.WriteLine($"numero de vogais: {contagemVogais}");
+
+//4 
+// Console.WriteLine("Digite uma palavra ou frase:");
+// string entrada = Console.ReadLine().Tolower().Replace(" ", "");
+
+// if (entrada == reverso)
+// {
+//     Console.WriteLine("E um palindromo!");
+// }
+// else
+// {
+//     Console.WriteLine("Nao e um palindromo.");
+// }
+
+//5
