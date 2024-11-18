@@ -41,5 +41,11 @@ Console.WriteLine($"{nomeParaRemover} foi removido da lista.")
 }
 else
 {
-    Console.WriteLine($"{nomeParaRemover} nao foi removido da lista.")
+    Console.WriteLine($"{nomeParaRemover} nao foi encontrado na lista.")
+}
+
+Console.WriteLine("\nNomea na lista apos a remoção: ");
+for (int 1 = 0; 1 < listaDeNomes.Count; i++)
+{
+    Console.WriteLine(listaDeNomes[i]);
 }
