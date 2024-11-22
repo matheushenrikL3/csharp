@@ -1,0 +1,4 @@
+C:\Users\SENAC\Documents\GitHub\csharp1\classes\obj\Debug\net7.0\classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SENAC\Documents\GitHub\csharp1\classes\obj\Debug\net7.0\classes.AssemblyInfoInputs.cache
+C:\Users\SENAC\Documents\GitHub\csharp1\classes\obj\Debug\net7.0\classes.AssemblyInfo.cs
+C:\Users\SENAC\Documents\GitHub\csharp1\classes\obj\Debug\net7.0\classes.csproj.CoreCompileInputs.cache
