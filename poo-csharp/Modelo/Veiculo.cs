@@ -1,35 +1,39 @@
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace poo_csharp.Modelo
-{
+    // Classe base Veiculo
     public class Veiculo
     {
-        // Atributos
-        string marca;
-        string modelo;
-        int ano;
+        // Atributos encapsulados com modificadores de acesso private, protected, getters e setters 
+        private string marca { get; set; } 
+        private string modelo { get; set; } 
+        private int ano { get; set; }     
+        protected double velocidadeAtual { get; set; } 
 
-        // construtor
-        public Veiculo(string marca, string modelo, int ano) 
-        {
-            this.marca = marca;
-            this.modelo = modelo;
-            this.ano = ano;
+        // Construtor
+        public Veiculo(string marca, string modelo, int ano, double velocidadeAtual) 
+        { 
+            this.marca = marca; 
+            this.modelo = modelo; 
+            this.ano = ano; 
+            this.velocidadeAtual = 0; 
         }
 
-        // Métodos
-        public void Acelerar()
+        // Método concreto Acelerar, adicionado modificar virtual para permitir polimorfismo (sobrescrita)
+        public virtual void Acelerar(double incremento)
         {
-            Console.WriteLine($"O {modelo} acelerou!");
+            velocidadeAtual += incremento;
+            Console.WriteLine($"Acelerando... Velocidade atual {velocidadeAtual} Km/h.");
         }
 
-        public void Frear()
+        // Método concreto Frear
+        public void Frear(double decremento)
         {
-            Console.WriteLine($"O {modelo} freou!");
+            velocidadeAtual -= decremento;
+            Console.WriteLine($"Freando... Velocidade atual {velocidadeAtual} Km/h.");
         }
     }
 }
